@@ -24,6 +24,9 @@
 					"EmptySection": {
 						"FooterVisible": false
 					},
+					"Search": {
+						"Enabled": true
+					},
 					"Target": {
 						"EntitySet": "Customers",
 						"Service": "/DemoSampleApp/Services/mobileDemo.service"
@@ -37,7 +40,6 @@
 			"_Type": "Control.Type.SectionedTable"
 		}
 	],
-	"OnLoaded": "/DemoSampleApp/Actions/NavToCustomers_Detail.action",
 	"_Name": "Customer_List",
 	"_Type": "Page"
 }
