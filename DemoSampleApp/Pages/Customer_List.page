@@ -1,0 +1,41 @@
+{
+	"Caption": "Customers",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ContactCell": {
+						"ActivityItems": [
+							{
+								"ActivityType": "Phone",
+								"ActivityValue": "{PhoneNumber}"
+							},
+							{
+								"ActivityType": "Email",
+								"ActivityValue": "{EmailAddress}"
+							}
+						],
+						"Description": "{City}",
+						"DetailImage": "res://contact.png",
+						"Headline": "{LastName}",
+						"Subheadline": "{FirstName}"
+					},
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Target": {
+						"EntitySet": "Customers",
+						"Service": "/DemoSampleApp/Services/mobileDemo.service"
+					},
+					"Visible": true,
+					"_Name": "SectionContactCellTable0",
+					"_Type": "Section.Type.ContactCell"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "Customer_List",
+	"_Type": "Page"
+}

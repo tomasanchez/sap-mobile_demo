@@ -1,23 +1,28 @@
 {
-  "Credential": "cf",
-  "CF": {
-    "Target": "https://api.cf.us10.hana.ondemand.com",
-    "Organization": "c45a5a35-7f55-435c-9949-9b7133f4174a",
-    "Space": "51220e25-b9d2-4415-bc3e-ba561e232184",
-    "Deploy": {
-      "Destination": [
-        { "CF": "", "MDK": "" }
-      ]
-    }
-  },
-  "MobileService": {
-    "AdminAPI": "https://mobile-service-cockpit-api.cfapps.us10.hana.ondemand.com/cockpit/v1/org/c45a5a35-7f55-435c-9949-9b7133f4174a/space/51220e25-b9d2-4415-bc3e-ba561e232184",
-    "AppId": "com.sap.mdk.demo",
-    "Destination": ["com.sap.edm.sampleservice.v2"]
-  },
-  "Onboarding": {
-    "Schema": "sapmobilesvcs",
-    "TimeZone": "UTC",
-    "URL": "sapmobilesvcs://?AppId=com.sap.mdk.demo&ClientId=f81f7d7c-885d-4df0-803a-7a2954a53e93&SapCloudPlatformEndpoint=https://cbc78ae3trial-dev-com-sap-mdk-demo.cfapps.us10.hana.ondemand.com&AuthorizationEndpointUrl=https://cbc78ae3trial-dev-com-sap-mdk-demo.cfapps.us10.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://cbc78ae3trial-dev-com-sap-mdk-demo.cfapps.us10.hana.ondemand.com&TokenUrl=https://cbc78ae3trial-dev-com-sap-mdk-demo.cfapps.us10.hana.ondemand.com/oauth2/api/v1/token"
-  }
+	"Credential": "cf",
+	"CF": {
+		"Target": "https://api.cf.us10.hana.ondemand.com",
+		"Organization": "c45a5a35-7f55-435c-9949-9b7133f4174a",
+		"Space": "51220e25-b9d2-4415-bc3e-ba561e232184",
+		"Deploy": {
+			"Destination": [
+				{
+					"CF": "",
+					"MDK": ""
+				}
+			]
+		}
+	},
+	"MobileService": {
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.us10.hana.ondemand.com/cockpit/v1/org/c45a5a35-7f55-435c-9949-9b7133f4174a/space/51220e25-b9d2-4415-bc3e-ba561e232184",
+		"AppId": "com.sap.mdk.demo",
+		"Destination": [
+			"com.sap.edm.sampleservice.v2"
+		]
+	},
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": "sapmobilesvcs://?AppId=com.sap.mdk.demo&ClientId=f81f7d7c-885d-4df0-803a-7a2954a53e93&SapCloudPlatformEndpoint=https://cbc78ae3trial-dev-com-sap-mdk-demo.cfapps.us10.hana.ondemand.com&AuthorizationEndpointUrl=https://cbc78ae3trial-dev-com-sap-mdk-demo.cfapps.us10.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://cbc78ae3trial-dev-com-sap-mdk-demo.cfapps.us10.hana.ondemand.com&TokenUrl=https://cbc78ae3trial-dev-com-sap-mdk-demo.cfapps.us10.hana.ondemand.com/oauth2/api/v1/token"
+	}
 }
