@@ -18,6 +18,7 @@
 						"Description": "{City}",
 						"DetailImage": "res://contact.png",
 						"Headline": "{LastName}",
+						"OnPress": "/DemoSampleApp/Actions/NavToCustomers_Detail.action",
 						"Subheadline": "{FirstName}"
 					},
 					"EmptySection": {
