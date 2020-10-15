@@ -37,6 +37,7 @@
 			"_Type": "Control.Type.SectionedTable"
 		}
 	],
+	"OnLoaded": "/DemoSampleApp/Actions/NavToCustomers_Detail.action",
 	"_Name": "Customer_List",
 	"_Type": "Page"
 }
