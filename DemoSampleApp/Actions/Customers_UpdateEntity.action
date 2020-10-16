@@ -1,0 +1,14 @@
+{
+	"Properties": {
+		"EmailAddress": "#Control:FCEmail/#Value",
+		"FirstName": "#Control:FCFirstName/#Value",
+		"LastName": "#Control:FCLastName/#Value",
+		"PhoneNumber": "#Control:FCPhone"
+	},
+	"Target": {
+		"EntitySet": "Customers",
+		"ReadLink": "{@odata.readLink}",
+		"Service": "/DemoSampleApp/Services/mobileDemo.service"
+	},
+	"_Type": "Action.Type.ODataService.UpdateEntity"
+}
