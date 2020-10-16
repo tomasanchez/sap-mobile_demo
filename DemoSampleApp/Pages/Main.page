@@ -7,6 +7,7 @@
 					"Buttons": [
 						{
 							"OnPress": "/DemoSampleApp/Actions/NavToCustomers_List.action",
+							"Style": "MyCustomerButton",
 							"TextAlignment": "center",
 							"Title": "Customer List",
 							"Visible": true

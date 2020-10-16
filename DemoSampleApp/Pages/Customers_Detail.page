@@ -23,6 +23,16 @@
 						"Footnote": "{EmailAddress}",
 						"HeadlineText": "{LastName}",
 						"StatusText": "{PhoneNumber}",
+						"Styles": {
+							"BodyText": "objectHeaderBodyText",
+							"Description": "objectHeaderDescription",
+							"Footnote": "objectHeaderFootNote",
+							"HeadlineText": "objectHeaderHeadline",
+							"ObjectHeader": "objectHeaderBackground",
+							"StatusText": "objectHeaderStatus",
+							"Subhead": "objectHeaderSubhead",
+							"SubstatusText": "objectHeaderSubStatus"
+						},
 						"Subhead": "{FirstName}"
 					},
 					"Visible": true,

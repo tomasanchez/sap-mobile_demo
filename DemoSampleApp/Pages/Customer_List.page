@@ -22,6 +22,7 @@
 						"Subheadline": "{FirstName}"
 					},
 					"EmptySection": {
+						"Caption": "No customers found",
 						"FooterVisible": false
 					},
 					"Search": {
