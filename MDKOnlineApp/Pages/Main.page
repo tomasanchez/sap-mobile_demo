@@ -1,18 +1,24 @@
 {
-	"Caption": "Main",
-	"Controls": [{
-		"_Name": "SectionedTable0",
-		"_Type": "Control.Type.SectionedTable",
-		"Sections": []
-	}],
-	"_Name": "Main",
-	"_Type": "Page",
+	"Caption": "Home",
+	"Controls": [
+		{
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
 	"ToolBar": {
-		"Controls": [{
-			"_Name": "LogoutToolbarItem",
-			"_Type": "Control.Type.ToolbarItem",
-			"Caption": "Logout",
-			"OnPress": "/MDKOnlineApp/Actions/Logout.action"
-		}]
-	}
+		"Controls": [
+			{
+				"Caption": "Logout",
+				"Clickable": true,
+				"Enabled": true,
+				"OnPress": "/MDKOnlineApp/Actions/Logout.action",
+				"Visible": true,
+				"_Name": "LogoutToolbarItem",
+				"_Type": "Control.Type.ToolbarItem"
+			}
+		]
+	},
+	"_Name": "Main",
+	"_Type": "Page"
 }

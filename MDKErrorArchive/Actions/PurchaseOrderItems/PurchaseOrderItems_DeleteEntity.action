@@ -1,0 +1,13 @@
+{
+	"Target": {
+		"EntitySet": "PurchaseOrderItems",
+		"Service": "/MDKErrorArchive/Services/MDKErrorArchive.service",
+		"ReadLink": "{@odata.readLink}"
+	},
+	"OnSuccess": "/MDKErrorArchive/Actions/DeleteEntitySuccessMessage.action",
+	"OnFailure": "/MDKErrorArchive/Actions/DeleteEntityFailureMessage.action",
+	"ActionResult": {
+		"_Name": "delete"
+	},
+	"_Type": "Action.Type.ODataService.DeleteEntity"
+}

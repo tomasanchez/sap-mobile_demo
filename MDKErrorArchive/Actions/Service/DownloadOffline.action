@@ -1,0 +1,18 @@
+{
+	"Service": "/MDKErrorArchive/Services/MDKErrorArchive.service",
+	"DefiningRequests": [
+	{
+		"Name": "PurchaseOrderItems",
+		"Query": "PurchaseOrderItems"
+	},
+	{
+		"Name": "PurchaseOrderHeaders",
+		"Query": "PurchaseOrderHeaders"
+	}
+],
+	"_Type": "Action.Type.OfflineOData.Download",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnFailure": "/MDKErrorArchive/Actions/Service/SyncFailureMessage.action"
+}

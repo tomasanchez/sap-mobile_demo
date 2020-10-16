@@ -1,0 +1,9 @@
+{
+	"Service": "/MDKErrorArchive/Services/MDKErrorArchive.service",
+	"_Type": "Action.Type.OfflineOData.Upload",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnSuccess": "/MDKErrorArchive/Actions/Service/DownloadStartedMessage.action",
+	"OnFailure": "/MDKErrorArchive/Actions/Service/SyncFailureMessage.action"
+}
